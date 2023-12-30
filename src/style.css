@@ -1,0 +1,278 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-family: 'DM Sans', sans-serif;
+}
+
+:root{
+  --navbar-width: 15vw;
+}
+
+body{
+  background-color: #212529;
+}
+
+/*Heading of all sections*/
+h1{
+  font-size: 4em;
+  text-align: center;
+}
+
+/*Heading of all projects/toolbox sections*/
+h2{
+  font-size: 2em;
+}
+
+/*Navigation Bar*/
+#navbar{
+  position: fixed;
+  background-color: rgba(0,0,0, 0.8);
+  height: 100vh;
+  width: var(--navbar-width);  
+  transition: width 500ms ease-out;
+  z-index: 1;
+
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(auto-fill, auto);
+  grid-template-areas: 
+  "about"
+  "projects"
+  "toolbox";
+  justify-items: center;
+}
+
+#navbar > ol{
+  list-style: none;
+  padding-top: 10vh;
+  font-size: 3vw;
+  line-height: 15vh;
+}
+
+#navbar:hover{
+  width: calc(10vw + var(--navbar-width));
+}
+
+/*Buttons*/
+button{
+  font-size: 1.5em;
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  background-color: cornsilk;
+  border-radius: 30px;
+  border: 6px teal solid;
+  padding: 8px 30px;
+}
+
+button:hover{
+  background-color: coral;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+
+
+/*The main content container*/
+#content-container{
+  padding-left: calc(5vw + var(--navbar-width)); /*leave space for navbar*/
+  padding-right: 5vw;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas: 
+  "about"
+  "projects"
+  "toolbox";
+}
+
+/*The About section*/
+#about{
+  grid-area: about;
+  padding-top: 5vh;
+
+  display: grid;
+  grid-row-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 
+  "about-heading  about-heading   about-heading"
+  "selfie             about-intro     about-intro"
+  "github         linkedin        email";
+  justify-items: center;
+}
+
+#aboutHeading{
+  grid-area: about-heading;
+}
+
+#aboutIntro{
+  letter-spacing: 3px;
+  grid-area: about-intro;
+  font-size: 1.5em;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.myName{
+  
+  font-weight: bolder;
+  color: black;
+  background-color: cornsilk;
+}
+
+.selfie{
+  grid-area: selfie;
+  width: 100%;
+  height: 100%;
+  border: 4px solid teal;
+}
+
+.github{
+  grid-area: github;
+}
+
+.linkedin{
+  grid-area: linkedin;
+}
+
+.email{
+  grid-area: email;
+}
+
+/*The projects section**/
+#projects{
+  padding-top: 20vh;
+}
+
+.project{
+  border: 2px solid teal;
+  box-shadow: 20px 15px 5px teal;
+  height: 300px;
+  margin-top: 10vh;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 300px;
+  grid-template-areas: "description image";
+}
+
+.projectDescription{
+  grid-area: description;
+  padding: 10px;
+
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto auto;
+}
+
+.row1{
+  grid-row: 1/1;
+}
+
+.row2{
+  grid-row: 2/2;
+}
+
+.row3{
+  grid-row: 3/3;
+}
+
+.row4{
+  grid-row: 4/4;
+}
+
+.projectImage{
+  grid-area: image;
+  border: 2px solid teal;
+  width: 90%;
+  height: 90%;
+  justify-self: center;
+  align-self: center;
+  object-fit: cover;
+}
+
+.skill{
+  background-color: teal;
+  margin: 5px;
+  padding: 5px;
+}
+
+.seeMore{
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+.seeMore > a{
+  color: orange;
+}
+
+
+
+/* Project animation*/
+.hidden{
+  opacity: 0;
+  transform: translateX(-100px) translateY(100px) scale(0.1);
+
+  transition-duration: 500ms;
+  transition-property: opacity, transform;
+  transition-timing-function: ease-in;
+}
+
+.show{
+  opacity: 1;
+  transform: translateX(0%) translateY(0%) scale(1);
+}
+
+/*The toolbox section*/
+#toolbox{
+  grid-area: toolbox;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+
+#toolboxContent{
+  display: grid;
+  grid-gap: 5vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "languages frameworks others";
+  padding-top: 10vh;
+}
+
+#languages{
+  grid-area: languages;
+}
+
+#frameworks{
+  grid-area: frameworks;
+}
+
+#others{
+  grid-area: others;
+}
+
+.col2Layout{
+  display: grid;
+  padding-top: 2vh;
+  grid-gap: 40px;
+  grid-template-columns: 100px 100px;
+  grid-auto-rows: 100px;
+  grid-auto-flow: row;
+}
+
+.toolImg{
+  width: 100%;
+  height: 100%;
+}
+
+.tool{
+  transform: scale(1);
+  transition-duration: 200ms;
+  transition-property: transform;
+}
+
+.tool:hover{
+  transform: scale(1.5);
+}

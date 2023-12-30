@@ -1,0 +1,10 @@
+[
+    {
+        "name" : "Git",
+        "img" : "git.svg"
+    },
+    {
+        "name" : "MySQL",
+        "img" : "mysql.svg"
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "name" : "React",
+        "img" : "react.svg"
+    },
+    {
+        "name" : "JDBC",
+        "img" : "jdbc.svg"
+    },
+    {
+        "name" : "Java Swing",
+        "img" : "swing.svg"
+    }
+]
