@@ -1,4 +1,4 @@
-import selfie from "../assets/profile.jpg";
+import selfie from "/assets/profile.jpg";
 
 export default function About(){
     const about = (

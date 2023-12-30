@@ -57,7 +57,7 @@ export default function Project(props){
 
             </div>
             
-            <img src = {"/src/assets/".concat(props.img)} className="projectImage"></img>
+            <img src = {"/assets/".concat(props.img)} className="projectImage"></img>
         </div>
     )
 
