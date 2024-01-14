@@ -22,7 +22,7 @@ export default function About(){
                 </button>
             </a>
 
-            <a className="email" href = "mailto:zhengpei.pz@gmail.com">
+            <a className="email" href = "mailto:z27pei@uwaterloo.ca">
                 <button >
                     Email
                 </button>
