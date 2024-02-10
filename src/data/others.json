@@ -1,5 +1,9 @@
 [
     {
+        "name" : "node.js",
+        "img" : "node-js.svg"
+    },
+    {
         "name" : "Git",
         "img" : "git.svg"
     },
