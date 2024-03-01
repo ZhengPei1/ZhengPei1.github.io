@@ -1,0 +1,43 @@
+@import "./constant.css";
+
+/*Navigation Bar*/
+#navbar{
+    height: var(--navbar-height);
+    width: 100%;
+    position: fixed;
+
+    background-color: var(--soft-dark);
+    backdrop-filter: blur(5px);
+    
+    display: grid;
+    grid-template-columns: 2fr 2fr repeat(4, 1fr) repeat(3, 0.6fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+  
+#navbar > *{
+    height: auto;
+    width: 100%;
+
+    text-align: center;
+    font-size: var(--font-size-standard);
+    font-weight: bold;
+    color: var(--slate);
+    font-family: var(--mono);
+}
+
+#logo{
+    font-size: 32px;
+    color: var(--light-slate);
+    font-family: var(--curs);
+}
+
+.icon{
+    object-fit: contain;
+    max-width: 50%;
+    max-height: 50%;
+    height: auto;
+    width: auto;
+}
+
