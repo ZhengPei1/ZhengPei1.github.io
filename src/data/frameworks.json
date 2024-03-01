@@ -4,6 +4,10 @@
         "img" : "react.svg"
     },
     {
+        "name" : "Express.js",
+        "img" : "express.svg"
+    },
+    {
         "name" : "JDBC",
         "img" : "jdbc.svg"
     },
