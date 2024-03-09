@@ -12,6 +12,6 @@
   
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: var(--slate);
+    background: var(--light-text);
     border-radius: 10px;
 }

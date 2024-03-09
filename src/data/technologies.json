@@ -1,0 +1,30 @@
+[
+    {
+        "type" : "Languages",
+        "info" : [
+            "Java",
+            "Javascript",
+            "Racket",
+            "C++"
+        ]
+    },
+    {
+        "type" : "Frameworks",
+        "info" : [
+            "React",
+            "Express",
+            "JDBC",
+            "Java Swing"
+        ]
+    },
+    {
+        "type" : "Others",
+        "info" : [
+            "Node.js",
+            "Git (Github)",
+            "MySQL",
+            "Linux",
+            "Vim"
+        ]
+    }
+]

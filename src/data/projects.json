@@ -1,19 +1,19 @@
 [
     {
-        "title" : "CodeTogether",
+        "title" : "Code Together",
         "description": "An application that allows multiple users to connect and code a modular program simultaneously. It also has the capability of compiling and executing Java code using JRE.",
         "img": "CodeTogether.png",
         "skill" : ["Java", "Java Swing"],
-        "websiteUrl": "",
+        "websiteUrl": false,
         "projectUrl": "https://github.com/ZhengPei1/CodeTogether"
     },
 
     {
-        "title" : "DatabaseTester",
+        "title" : "Database Tester",
         "description": "An App that allows the user to access and modify the data stored within their local database without using any SQL command.",
         "img": "DatabaseTester.png",
         "skill" : ["Java", "MySQL" ,"Java Swing", "JDBC"],
-        "websiteUrl": "",
+        "websiteUrl": false,
         "projectUrl": "https://github.com/ZhengPei1/DatabaseTester"
     },
 
@@ -22,7 +22,7 @@
         "description": "A multiplayer game following the rules of Amazing Labyrinth, AI is incorporated and can be selected as opponents.",
         "img": "AmazingLabyrinth.png",
         "skill" : ["Java", "Java Swing"],
-        "websiteUrl": "",
+        "websiteUrl": false,
         "projectUrl": "https://github.com/ZhengPei1/AmazingLabyrinth"
     }
 

@@ -1,35 +1,36 @@
 @import "./constant.css";
 
 /*Navigation Bar*/
-#navbar{
+/*nav-bar top is the behavior when the page is scrolled to the top*/
+#navbar-top{
     height: var(--navbar-height);
     width: 100%;
-    position: fixed;
+    z-index: 1;
 
-    background-color: var(--soft-dark);
+    background-color: var(--dark);
     backdrop-filter: blur(5px);
     
     display: grid;
-    grid-template-columns: 2fr 2fr repeat(4, 1fr) repeat(3, 0.6fr);
+    column-gap: 20px;
+    grid-template-columns: 2fr 3fr repeat(4, auto) repeat(3, 0.6fr);
     grid-template-rows: 1fr;
     align-items: center;
     justify-items: center;
 }
   
-#navbar > *{
+.nav-element{
     height: auto;
     width: 100%;
 
     text-align: center;
     font-size: var(--font-size-standard);
     font-weight: bold;
-    color: var(--slate);
+    color: var(-dark-text);
     font-family: var(--mono);
 }
 
 #logo{
     font-size: 32px;
-    color: var(--light-slate);
     font-family: var(--curs);
 }
 
@@ -39,5 +40,6 @@
     max-height: 50%;
     height: auto;
     width: auto;
+
 }
 
