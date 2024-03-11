@@ -72,7 +72,6 @@ body{
   font-size: var(--font-size-standard);
 }
 
-
 #selfie{
   max-width: 300px;
   max-height: 300px;
@@ -102,7 +101,7 @@ body{
 
 .skill-tech{
   line-height: 40px;
-  font-size: var(--font-size-standard);
+  font-size: var(--font-size-small);
   font-family: var(--mono);
 }
 
