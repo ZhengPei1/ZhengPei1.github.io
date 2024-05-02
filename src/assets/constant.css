@@ -24,7 +24,7 @@ This file provides defined constant for all the other css files
     --font-size-large: 32px;
     --font-size-header: 48px;
   
-    --navbar-height: 80px;
+    --navbar-height: 80px; /*also important to navbar-scroll.js*/
     --navbar-scroll-down-height: 60px;
     --navbar-scroll-up-height: 0px;
 }

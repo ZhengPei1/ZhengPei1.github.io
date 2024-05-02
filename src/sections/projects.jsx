@@ -6,15 +6,18 @@ export default function Projects(){
 
     return (
         <div id = "projects" className="section">
+
+            <p className="section-header">My Projects</p>
+
+            {projects}
             
-            <p className="section-header project-header">My Projects</p>
+            <p className="see-more-header">
+                Other Projects
+            </p>
 
             <p className="see-more">
                 <a href = "https://github.com/ZhengPei1?tab=repositories" target="_blank">See More {">"}</a>
             </p>
-
-            {projects}
-
             
         </div>
     );

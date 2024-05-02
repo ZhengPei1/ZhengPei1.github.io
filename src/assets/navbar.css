@@ -1,14 +1,18 @@
 @import "./constant.css";
 
 /*Navigation Bar*/
-/*nav-bar top is the behavior when the page is scrolled to the top*/
-#navbar-top{
+#navbar{
     height: var(--navbar-height);
     width: 100%;
     z-index: 1;
 
     background-color: var(--dark);
     backdrop-filter: blur(5px);
+    border-bottom: var(--light-text) solid 1px ;
+
+    position: fixed;
+    transition: top 0.3s linear, height 0.4s linear; /*transition when scrolling*/
+    
     
     display: grid;
     column-gap: 20px;

@@ -1,7 +1,7 @@
 export default function Navbar(){
 
     const navbar = (
-        <div id = "navbar-top">
+        <div id = "navbar">
             <div id = "logo" className="nav-element">Zheng Pei</div>
             <div className="nav-element"></div>  {/*Empty element*/} 
             <a className="nav-element" href = "#home">Home</a>

@@ -17,17 +17,20 @@ export default function Project(props){
         </a>
     ) : false;
 
-    
+    let skills = props.skill.reduce((pre, cur) => pre.concat(cur, "    "), "");
     const project = (
         <div id = "project">
 
-            <div id ="image-wrapper">
-                <img src = {"/assets/".concat(props.img)} id ="project-img"></img>
-            </div>
+            <img src = {"/assets/".concat(props.img)} id ="project-img"></img>
+            
 
             <div id ="project-description">
                 <p id = "project-title">{props.title}</p>
                 <p id = "project-detail">{props.description}</p>
+                <p id = "project-skills">
+                    {skills}
+                </p>
+
                 {websiteButton? websiteButton : ""}
                 {sourceCodeButton? sourceCodeButton : ""}
             </div>
