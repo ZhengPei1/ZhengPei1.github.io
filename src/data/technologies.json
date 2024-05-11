@@ -5,7 +5,9 @@
             "Java",
             "Javascript",
             "Racket",
-            "C++"
+            "C++",
+            "C",
+            "Python"
         ]
     },
     {
@@ -13,6 +15,7 @@
         "info" : [
             "React",
             "Express",
+            "Flask",
             "JDBC",
             "Java Swing"
         ]

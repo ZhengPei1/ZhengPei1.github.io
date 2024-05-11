@@ -1,7 +1,15 @@
 [
     {
+        "title": "Cobalt",
+        "description": "Currently underdevelopment. A paper trading platform that visualizes the stock market and allows traders to experiment with different strategies and learn without financial consequences.",
+        "img": "Cobalt.png",
+        "skill" : ["Next.js", "Python", "Flask", "ApexCharts"],
+        "websiteUrl": "https://cobalt-pz.vercel.app/",
+        "projectUrl": "https://github.com/ZhengPei1/Cobalt"
+    },
+    {
         "title": "URL Shortener",
-        "description": "Generates a unique, short URL linked to the given URL, also track and display most popular URL requests",
+        "description": "Generates a unique, short URL linked to the given URL, also tracks and displays the most popular URL requests",
         "img": "URLShortener.png",
         "skill" : ["JavaScript", "Node.js", "Express", "MySQL"],
         "websiteUrl": "https://urlshortener-tes1.onrender.com/",
