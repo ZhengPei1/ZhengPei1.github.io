@@ -3,7 +3,7 @@
         "title": "Cobalt",
         "description": "Currently under development. A paper trading platform that visualizes the stock market and allows traders to experiment with different strategies and learn without financial consequences.",
         "img": "Cobalt.png",
-        "skill" : ["Next.js", "React", "Node.js", "Javascript", "Firebase", "Python", "Flask"],
+        "skill" : ["Next.js", "React", "Node.js", "Javascript", "Firebase", "Python"],
         "websiteUrl": "https://cobalt-pz.vercel.app/",
         "projectUrl": "https://github.com/ZhengPei1/Cobalt-Client"
     },

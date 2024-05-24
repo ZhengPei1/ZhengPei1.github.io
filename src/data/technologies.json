@@ -23,6 +23,7 @@
     {
         "type" : "Others",
         "info" : [
+            "Firebase",
             "Node.js",
             "Git (Github)",
             "MySQL",
